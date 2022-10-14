@@ -13,7 +13,14 @@ function App() {
   const fridayAccessTimes = staffedHours.filter(i => i.day === "FRIDAY")
   const saturdayAccessTimes = staffedHours.filter(i => i.day === "SATURDAY")
   const sundayAccessTimes = staffedHours.filter(i => i.day === "SUNDAY")
-
+  console.log(mondayAccessTimes)
+  const formatTime = (time) => {
+    const hour = Number(time.slice(0,2))
+    if (hour >=0 && hour < 12) return `${time.slice(0, 5)} AM`
+    if (hour === 12) return `${time.slice(0, 5)} PM` 
+    if (hour > 12 && hour < 22) return `0${hour - 12}:${time.slice(3,5)} PM`
+    if (hour > 22) return `${hour - 12}:${time.slice(3,5)} PM`
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -26,8 +33,8 @@ function App() {
             <table>
               {mondayAccessTimes.map(timePeriod => (
                 <tr key={timePeriod.id}>
-                  <td>{timePeriod.openTime}</td>
-                  <td>{timePeriod.closeTime}</td>
+                  <td>{formatTime(timePeriod.openTime)}</td>
+                  <td>{formatTime(timePeriod.closeTime)}</td>
                   <td>
                     <button>SAVE</button>
                     <button>DELETE</button>
