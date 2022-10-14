@@ -1,8 +1,12 @@
 import './App.css';
-import {accessTimes} from "./dummydata";
+import {locationAccessTimes} from "./dummydata";
 
 function App() {
-  console.log(accessTimes)
+  console.log(locationAccessTimes)
+  const getAccessTimes = (type) =>  locationAccessTimes.filter((i) => i.type === type)
+  const staffedHours = getAccessTimes("STAFF")
+  console.log(staffedHours)
+
   return (
     <div className="App">
       <header className="App-header">

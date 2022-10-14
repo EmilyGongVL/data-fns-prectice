@@ -1,4 +1,144 @@
-const accessTimes = [
+const locationAccessTimes = [
+  {
+    id: "6931c9a1-d21e-4fcc-b83c-c5105b9a52ef",
+    day: "MONDAY",
+    openTime: "09:00:00",
+    closeTime: "17:00:00",
+    type: "CREACHE"
+  },
+  {
+    id: "80a5fa84-423b-4c87-be3f-4c1f83a76755",
+    day: "MONDAY",
+    openTime: "09:00:00",
+    closeTime: "17:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "582ef4dd-5403-4704-b85c-3b2bf878a179",
+    day: "SUNDAY",
+    openTime: "09:00:00",
+    closeTime: "12:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "c63764a5-0f9b-4a3c-a730-c5c786399387",
+    day: "WEDNESDAY",
+    openTime: "09:00:00",
+    closeTime: "14:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "0c67cefa-64d1-4509-8b08-0ee65f3a30cb",
+    day: "MONDAY",
+    openTime: "10:00:00",
+    closeTime: "10:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "8345bde7-3d87-4316-a2bc-2f885fa7c50f",
+    day: "THURSDAY",
+    openTime: "09:30:00",
+    closeTime: "19:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "63cca68e-496d-4c13-851e-bcbfdb8f5bc5",
+    day: "SUNDAY",
+    openTime: "10:00:00",
+    closeTime: "13:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "51440081-f7e3-483f-a2c0-6201276d315d",
+    day: "TUESDAY",
+    openTime: "02:22:00",
+    closeTime: "02:22:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "830e2131-89fe-43dc-a46e-f5e3078bc250",
+    day: "THURSDAY",
+    openTime: "08:00:00",
+    closeTime: "12:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "36df666f-55f9-403a-a3f9-b270eb714709",
+    day: "SATURDAY",
+    openTime: "08:00:00",
+    closeTime: "11:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "2e57351b-1c88-4508-a6da-f83afae74374",
+    day: "TUESDAY",
+    openTime: "09:00:00",
+    closeTime: "14:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "d81e00d8-ce5e-417e-8710-08cdca52930b",
+    day: "WEDNESDAY",
+    openTime: "11:00:00",
+    closeTime: "19:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "a427715a-fb12-4a8d-8e9a-e57f41a612e9",
+    day: "TUESDAY",
+    openTime: "09:00:00",
+    closeTime: "14:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "a56d3dbf-9a98-4080-9c06-56b03380dd84",
+    day: "FRIDAY",
+    openTime: "10:00:00",
+    closeTime: "18:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "ed7dbcbd-4077-40a9-b787-b872359263ad",
+    day: "SATURDAY",
+    openTime: "09:30:00",
+    closeTime: "17:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "a54a3810-391d-4507-9ea7-d8570050c423",
+    day: "TUESDAY",
+    openTime: "08:00:00",
+    closeTime: "17:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "d0483130-511d-4776-a3c1-18e2ccbfc472",
+    day: "TUESDAY",
+    openTime: "02:22:00",
+    closeTime: "02:22:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "b67396c6-2ed8-4fd3-a89c-7814e5f16cc9",
+    day: "TUESDAY",
+    openTime: "10:00:00",
+    closeTime: "10:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "a3e5c267-6094-4268-b915-2f01a71b71df",
+    day: "FRIDAY",
+    openTime: "10:00:00",
+    closeTime: "10:00:00",
+    type: "OPENCLOSE"
+  },
+  {
+    id: "5b8c4356-30f8-4140-a30a-b3bcbd79e36d",
+    day: "TUESDAY",
+    openTime: "00:00:00",
+    closeTime: "00:00:00",
+    type: "OPENCLOSE"
+  },
   {
     id: "35355101-e83d-4f07-b148-b81e8e00ddef",
     day: "SUNDAY",
@@ -155,4 +295,4 @@ const accessTimes = [
   }
 ]
 
-export {accessTimes}
+export {locationAccessTimes}
